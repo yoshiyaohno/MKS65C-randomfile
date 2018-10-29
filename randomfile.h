@@ -1,0 +1,1 @@
+int oof_rand();
