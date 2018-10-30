@@ -8,7 +8,7 @@ run : randomfile
 	./randomfile
 
 clean : 
-	rm randomfile *.o
+	rm file randomfile *.o
 
 bug : randomfile.c randomfile.h
 	gcc -g -c randomfile.c
